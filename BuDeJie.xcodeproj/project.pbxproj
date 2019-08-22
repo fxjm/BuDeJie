@@ -7,27 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		44B7DE78230E61490075EB4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DE77230E61490075EB4C /* AppDelegate.m */; };
-		44B7DE7B230E61490075EB4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DE7A230E61490075EB4C /* ViewController.m */; };
 		44B7DE7E230E61490075EB4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B7DE7C230E61490075EB4C /* Main.storyboard */; };
 		44B7DE80230E614B0075EB4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B7DE7F230E614B0075EB4C /* Assets.xcassets */; };
 		44B7DE83230E614B0075EB4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B7DE81230E614B0075EB4C /* LaunchScreen.storyboard */; };
-		44B7DE86230E614B0075EB4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DE85230E614B0075EB4C /* main.m */; };
 		44B7DE8D230E6A3C0075EB4C /* 笔记.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 44B7DE8C230E6A3C0075EB4C /* 笔记.rtf */; };
+		44B7DEA7230E7A350075EB4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DE99230E7A350075EB4C /* main.m */; };
+		44B7DEA8230E7A350075EB4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DE9A230E7A350075EB4C /* AppDelegate.m */; };
+		44B7DEAB230E84180075EB4C /* FLPEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DEAA230E84180075EB4C /* FLPEssenceViewController.m */; };
+		44B7DEB2230E84540075EB4C /* FLPNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DEB1230E84540075EB4C /* FLPNewViewController.m */; };
+		44B7DEB5230E84620075EB4C /* FLPPublicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DEB4230E84620075EB4C /* FLPPublicViewController.m */; };
+		44B7DEB8230E846C0075EB4C /* FLPFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DEB7230E846C0075EB4C /* FLPFriendTrendsViewController.m */; };
+		44B7DEBE230E873A0075EB4C /* FLPMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DEBD230E873A0075EB4C /* FLPMeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		44B7DE73230E61490075EB4C /* BuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		44B7DE76230E61490075EB4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		44B7DE77230E61490075EB4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		44B7DE79230E61490075EB4C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		44B7DE7A230E61490075EB4C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		44B7DE7D230E61490075EB4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44B7DE7F230E614B0075EB4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44B7DE82230E614B0075EB4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44B7DE84230E614B0075EB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44B7DE85230E614B0075EB4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44B7DE8C230E6A3C0075EB4C /* 笔记.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "笔记.rtf"; sourceTree = "<group>"; };
+		44B7DE98230E7A350075EB4C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44B7DE99230E7A350075EB4C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44B7DE9A230E7A350075EB4C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44B7DEA9230E84180075EB4C /* FLPEssenceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPEssenceViewController.h; sourceTree = "<group>"; };
+		44B7DEAA230E84180075EB4C /* FLPEssenceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPEssenceViewController.m; sourceTree = "<group>"; };
+		44B7DEB0230E84540075EB4C /* FLPNewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPNewViewController.h; sourceTree = "<group>"; };
+		44B7DEB1230E84540075EB4C /* FLPNewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPNewViewController.m; sourceTree = "<group>"; };
+		44B7DEB3230E84620075EB4C /* FLPPublicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPPublicViewController.h; sourceTree = "<group>"; };
+		44B7DEB4230E84620075EB4C /* FLPPublicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPPublicViewController.m; sourceTree = "<group>"; };
+		44B7DEB6230E846C0075EB4C /* FLPFriendTrendsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPFriendTrendsViewController.h; sourceTree = "<group>"; };
+		44B7DEB7230E846C0075EB4C /* FLPFriendTrendsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPFriendTrendsViewController.m; sourceTree = "<group>"; };
+		44B7DEBC230E873A0075EB4C /* FLPMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPMeViewController.h; sourceTree = "<group>"; };
+		44B7DEBD230E873A0075EB4C /* FLPMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPMeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,18 +72,202 @@
 		44B7DE75230E61490075EB4C /* BuDeJie */ = {
 			isa = PBXGroup;
 			children = (
-				44B7DE76230E61490075EB4C /* AppDelegate.h */,
-				44B7DE77230E61490075EB4C /* AppDelegate.m */,
-				44B7DE79230E61490075EB4C /* ViewController.h */,
-				44B7DE7A230E61490075EB4C /* ViewController.m */,
+				44B7DE8E230E7A350075EB4C /* Classes */,
 				44B7DE7C230E61490075EB4C /* Main.storyboard */,
 				44B7DE7F230E614B0075EB4C /* Assets.xcassets */,
 				44B7DE81230E614B0075EB4C /* LaunchScreen.storyboard */,
 				44B7DE84230E614B0075EB4C /* Info.plist */,
-				44B7DE85230E614B0075EB4C /* main.m */,
 				44B7DE8C230E6A3C0075EB4C /* 笔记.rtf */,
 			);
 			path = BuDeJie;
+			sourceTree = "<group>";
+		};
+		44B7DE8E230E7A350075EB4C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				44B7DEAC230E844E0075EB4C /* New(新帖) */,
+				44B7DE8F230E7A350075EB4C /* Essence(精华) */,
+				44B7DE9B230E7A350075EB4C /* Public(发布) */,
+				44B7DE9F230E7A350075EB4C /* FriendTrends(关注) */,
+				44B7DEA3230E7A350075EB4C /* Me(我) */,
+				44B7DE97230E7A350075EB4C /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		44B7DE8F230E7A350075EB4C /* Essence(精华) */ = {
+			isa = PBXGroup;
+			children = (
+				44B7DE90230E7A350075EB4C /* Controller */,
+				44B7DE91230E7A350075EB4C /* Model */,
+				44B7DE92230E7A350075EB4C /* View */,
+			);
+			path = "Essence(精华)";
+			sourceTree = "<group>";
+		};
+		44B7DE90230E7A350075EB4C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44B7DEA9230E84180075EB4C /* FLPEssenceViewController.h */,
+				44B7DEAA230E84180075EB4C /* FLPEssenceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44B7DE91230E7A350075EB4C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44B7DE92230E7A350075EB4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44B7DE97230E7A350075EB4C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				44B7DE98230E7A350075EB4C /* AppDelegate.h */,
+				44B7DE9A230E7A350075EB4C /* AppDelegate.m */,
+				44B7DE99230E7A350075EB4C /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		44B7DE9B230E7A350075EB4C /* Public(发布) */ = {
+			isa = PBXGroup;
+			children = (
+				44B7DE9C230E7A350075EB4C /* Controller */,
+				44B7DE9D230E7A350075EB4C /* Model */,
+				44B7DE9E230E7A350075EB4C /* View */,
+			);
+			path = "Public(发布)";
+			sourceTree = "<group>";
+		};
+		44B7DE9C230E7A350075EB4C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44B7DEB3230E84620075EB4C /* FLPPublicViewController.h */,
+				44B7DEB4230E84620075EB4C /* FLPPublicViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44B7DE9D230E7A350075EB4C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44B7DE9E230E7A350075EB4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44B7DE9F230E7A350075EB4C /* FriendTrends(关注) */ = {
+			isa = PBXGroup;
+			children = (
+				44B7DEA0230E7A350075EB4C /* Controller */,
+				44B7DEA1230E7A350075EB4C /* Model */,
+				44B7DEA2230E7A350075EB4C /* View */,
+			);
+			path = "FriendTrends(关注)";
+			sourceTree = "<group>";
+		};
+		44B7DEA0230E7A350075EB4C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44B7DEB6230E846C0075EB4C /* FLPFriendTrendsViewController.h */,
+				44B7DEB7230E846C0075EB4C /* FLPFriendTrendsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44B7DEA1230E7A350075EB4C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44B7DEA2230E7A350075EB4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44B7DEA3230E7A350075EB4C /* Me(我) */ = {
+			isa = PBXGroup;
+			children = (
+				44B7DEA4230E7A350075EB4C /* Controller */,
+				44B7DEA5230E7A350075EB4C /* Model */,
+				44B7DEA6230E7A350075EB4C /* View */,
+			);
+			path = "Me(我)";
+			sourceTree = "<group>";
+		};
+		44B7DEA4230E7A350075EB4C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44B7DEBC230E873A0075EB4C /* FLPMeViewController.h */,
+				44B7DEBD230E873A0075EB4C /* FLPMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44B7DEA5230E7A350075EB4C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44B7DEA6230E7A350075EB4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44B7DEAC230E844E0075EB4C /* New(新帖) */ = {
+			isa = PBXGroup;
+			children = (
+				44B7DEAD230E844E0075EB4C /* Controller */,
+				44B7DEAE230E844E0075EB4C /* Model */,
+				44B7DEAF230E844E0075EB4C /* View */,
+			);
+			path = "New(新帖)";
+			sourceTree = "<group>";
+		};
+		44B7DEAD230E844E0075EB4C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44B7DEB0230E84540075EB4C /* FLPNewViewController.h */,
+				44B7DEB1230E84540075EB4C /* FLPNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44B7DEAE230E844E0075EB4C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44B7DEAF230E844E0075EB4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +342,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44B7DE7B230E61490075EB4C /* ViewController.m in Sources */,
-				44B7DE86230E614B0075EB4C /* main.m in Sources */,
-				44B7DE78230E61490075EB4C /* AppDelegate.m in Sources */,
+				44B7DEB2230E84540075EB4C /* FLPNewViewController.m in Sources */,
+				44B7DEA8230E7A350075EB4C /* AppDelegate.m in Sources */,
+				44B7DEBE230E873A0075EB4C /* FLPMeViewController.m in Sources */,
+				44B7DEAB230E84180075EB4C /* FLPEssenceViewController.m in Sources */,
+				44B7DEB5230E84620075EB4C /* FLPPublicViewController.m in Sources */,
+				44B7DEA7230E7A350075EB4C /* main.m in Sources */,
+				44B7DEB8230E846C0075EB4C /* FLPFriendTrendsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
