@@ -17,7 +17,18 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImage" translatesAutoresizingMaskIntoConstraints="NO" id="RSx-Xb-Azd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RSx-Xb-Azd" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="08D-ux-YFj"/>
+                            <constraint firstItem="RSx-Xb-Azd" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="fbs-kV-5Ae"/>
+                            <constraint firstAttribute="bottom" secondItem="RSx-Xb-Azd" secondAttribute="bottom" id="qD5-A1-2yA"/>
+                            <constraint firstAttribute="trailing" secondItem="RSx-Xb-Azd" secondAttribute="trailing" id="rav-e2-3Qn"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -26,4 +37,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="LaunchImage" width="320" height="480"/>
+    </resources>
 </document>

@@ -13,6 +13,7 @@
 		44B7DE80230E614B0075EB4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B7DE7F230E614B0075EB4C /* Assets.xcassets */; };
 		44B7DE83230E614B0075EB4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B7DE81230E614B0075EB4C /* LaunchScreen.storyboard */; };
 		44B7DE86230E614B0075EB4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DE85230E614B0075EB4C /* main.m */; };
+		44B7DE8D230E6A3C0075EB4C /* 笔记.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 44B7DE8C230E6A3C0075EB4C /* 笔记.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		44B7DE82230E614B0075EB4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44B7DE84230E614B0075EB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44B7DE85230E614B0075EB4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44B7DE8C230E6A3C0075EB4C /* 笔记.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "笔记.rtf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				44B7DE81230E614B0075EB4C /* LaunchScreen.storyboard */,
 				44B7DE84230E614B0075EB4C /* Info.plist */,
 				44B7DE85230E614B0075EB4C /* main.m */,
+				44B7DE8C230E6A3C0075EB4C /* 笔记.rtf */,
 			);
 			path = BuDeJie;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44B7DE8D230E6A3C0075EB4C /* 笔记.rtf in Resources */,
 				44B7DE83230E614B0075EB4C /* LaunchScreen.storyboard in Resources */,
 				44B7DE80230E614B0075EB4C /* Assets.xcassets in Resources */,
 				44B7DE7E230E61490075EB4C /* Main.storyboard in Resources */,
