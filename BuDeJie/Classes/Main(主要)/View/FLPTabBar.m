@@ -31,18 +31,20 @@
     int i = 0;
     CGFloat btnW = self.flp_width / (count + 1);
     CGFloat btnH = 0;
+    CGFloat btnY = 0;
     for (UIView *barButton in self.subviews) {
         if ([barButton isKindOfClass:NSClassFromString(@"UITabBarButton")]) {
             if (i == 2) {
                 i++;
             }
             btnH = barButton.flp_height;
-            barButton.frame = CGRectMake(i * btnW, 0, btnW, btnH);
+            btnY = barButton.flp_y;
+            barButton.frame = CGRectMake(i * btnW, btnY, btnW, btnH);
             i++;
         }
     }
     
-    self.plusButton.frame = CGRectMake(btnW * 2, 0, btnW, btnH);
+    self.plusButton.frame = CGRectMake(btnW * 2, btnY, btnW, btnH);
     
 }
 @end

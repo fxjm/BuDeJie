@@ -14,6 +14,7 @@
 #import "FLPMeViewController.h"
 #import "UIImage+FLPImage.h"
 #import "FLPTabBar.h"
+#import "FLPNavigationController.h"
 @interface FLPTabBarController ()
 
 @end
@@ -55,22 +56,22 @@
     
     //精华
     FLPEssenceViewController *essenceVc = [[FLPEssenceViewController alloc] init];
-    UINavigationController *essenceNav = [[UINavigationController alloc] initWithRootViewController:essenceVc];
+    FLPNavigationController *essenceNav = [[FLPNavigationController alloc] initWithRootViewController:essenceVc];
     [self addChildViewController:essenceNav];
     
     //新帖
     FLPNewViewController *newVc = [[FLPNewViewController alloc] init];
-    UINavigationController *newNav = [[UINavigationController alloc] initWithRootViewController:newVc];
+    FLPNavigationController *newNav = [[FLPNavigationController alloc] initWithRootViewController:newVc];
     [self addChildViewController:newNav];
     
     //关注
     FLPFriendTrendsViewController *friendTrendsVc = [[FLPFriendTrendsViewController alloc] init];
-    UINavigationController *friendTrendsNav = [[UINavigationController alloc] initWithRootViewController:friendTrendsVc];
+    FLPNavigationController *friendTrendsNav = [[FLPNavigationController alloc] initWithRootViewController:friendTrendsVc];
     [self addChildViewController:friendTrendsNav];
     
     //我
     FLPMeViewController *meVc = [[FLPMeViewController alloc] init];
-    UINavigationController *meNav = [[UINavigationController alloc] initWithRootViewController:meVc];
+    FLPNavigationController *meNav = [[FLPNavigationController alloc] initWithRootViewController:meVc];
     [self addChildViewController:meNav];
 }
 

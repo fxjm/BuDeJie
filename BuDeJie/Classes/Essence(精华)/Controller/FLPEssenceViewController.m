@@ -18,7 +18,25 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = UIColor.redColor;
-    self.navigationItem.title = @"精华";
+    
+    [self setNavTitle];
 }
 
+#pragma mark - 设置title
+-(void)setNavTitle{
+    //设置标题
+    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]];
+    
+    //设置左边的item
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"nav_item_game_icon"] hightImage:[UIImage imageNamed:@"nav_item_game_click_icon"] target:self action:@selector(game)];
+    
+    //设置右边的item
+    
+    self.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"navigationButtonRandom"] hightImage:[UIImage imageNamed:@"navigationButtonRandomClick"] target:self action:@selector(game)];
+}
+
+#pragma mark - titleAction
+-(void)game{
+    FLPFunc;
+}
 @end

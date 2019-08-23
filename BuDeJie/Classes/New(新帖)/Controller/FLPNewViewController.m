@@ -17,16 +17,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
      self.view.backgroundColor = UIColor.greenColor;
+    [self setNavTitle];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark - 设置title
+-(void)setNavTitle{
+    //设置标题
+    self.navigationItem.title = @"新帖";
+    //设置左边的item
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"MainTagSubIcon"] hightImage:[UIImage imageNamed:@"MainTagSubIconClick"] target:self action:@selector(tagSub)];
 }
-*/
+
+#pragma mark - titleAction
+-(void)tagSub{
+    FLPFunc;
+}
 
 @end

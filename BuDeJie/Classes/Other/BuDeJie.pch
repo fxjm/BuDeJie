@@ -19,8 +19,9 @@
 
 
 #import "UIView+Frame.h"
+#import "UIBarButtonItem+Item.h"
 
-#define FLPFunc XMGLog(@"%s",__func__)
+#define FLPFunc FLPLog(@"%s",__func__)
 
 #ifdef DEBUG // 调试
 

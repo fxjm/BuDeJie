@@ -7,7 +7,7 @@
 //
 
 #import "FLPMeViewController.h"
-
+#import "FLPSettingViewController.h"
 @interface FLPMeViewController ()
 
 @end
@@ -16,8 +16,37 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   self.view.backgroundColor = UIColor.grayColor;
+    self.view.backgroundColor = UIColor.grayColor;
+    [self setNavTitle];
 }
+
+#pragma mark - 设置title
+-(void)setNavTitle{
+    //设置标题
+    self.navigationItem.title = @"关注";
+    //设置右边的items
+    UIBarButtonItem *nightItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"mine-moon-icon"] selectedImage:[UIImage imageNamed:@"mine-moon-icon-click"] target:self action:@selector(night:)];
+    
+    UIBarButtonItem *settingItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"mine-setting-icon"] hightImage:[UIImage imageNamed:@"mine-setting-icon-click"] target:self action:@selector(setting)];
+    
+    self.navigationItem.rightBarButtonItems = @[settingItem,nightItem];
+    
+
+    
+}
+
+#pragma mark - titleAction
+
+-(void)night:(UIButton *)btn{
+    btn.selected = !btn.selected;
+}
+-(void)setting{
+    FLPSettingViewController *settingVc = [[FLPSettingViewController alloc] init];
+    settingVc.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:settingVc animated:YES];
+}
+
+
 
 #pragma mark - Table view data source
 
