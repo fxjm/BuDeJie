@@ -1,0 +1,36 @@
+//
+//  BuDeJie.pch
+//  BuDeJie
+//
+//  Created by lipeng feng on 2019/8/23.
+//  Copyright © 2019 lipeng feng. All rights reserved.
+//
+
+/*
+ 存放公用的宏
+ 存放公用的头文件
+ 自定义Log
+ 
+ 
+ PCH使用步骤:
+ 1.提前编译头文件 build-setting 找到prefix-header
+ 填写路径:先找到总路径(/Users/lipengfeng/Documents/OC/project/BuDeJie/BuDeJie/Classes/Other/BuDeJie.pch),然后填写(BuDeJie/Classes/Other/BuDeJie.pch)
+ */
+
+
+#import "UIView+Frame.h"
+
+#define FLPFunc XMGLog(@"%s",__func__)
+
+#ifdef DEBUG // 调试
+
+#define FLPLog(...) NSLog(__VA_ARGS__)
+
+#else // 发布
+
+#define FLPLog(...)
+
+#endif
+
+
+

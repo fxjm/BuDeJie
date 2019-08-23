@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		444E6933230F94CD00EE32E4 /* FLPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 444E6932230F94CD00EE32E4 /* FLPTabBar.m */; };
 		444E6936230FBBCE00EE32E4 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 444E6934230FBBCD00EE32E4 /* UIView+Frame.m */; };
+		444E693A230FC98E00EE32E4 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 444E6939230FC98E00EE32E4 /* UIBarButtonItem+Item.m */; };
 		44B7DE80230E614B0075EB4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B7DE7F230E614B0075EB4C /* Assets.xcassets */; };
 		44B7DE83230E614B0075EB4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B7DE81230E614B0075EB4C /* LaunchScreen.storyboard */; };
 		44B7DE8D230E6A3C0075EB4C /* 笔记.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 44B7DE8C230E6A3C0075EB4C /* 笔记.rtf */; };
@@ -29,6 +30,8 @@
 		444E6934230FBBCD00EE32E4 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		444E6935230FBBCE00EE32E4 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		444E6937230FBDF000EE32E4 /* BuDeJie.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuDeJie.pch; sourceTree = "<group>"; };
+		444E6938230FC98E00EE32E4 /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		444E6939230FC98E00EE32E4 /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
 		44B7DE73230E61490075EB4C /* BuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B7DE7F230E614B0075EB4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44B7DE82230E614B0075EB4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -325,6 +328,8 @@
 				444E6934230FBBCD00EE32E4 /* UIView+Frame.m */,
 				44B7DEC7230EA1860075EB4C /* UIImage+FLPImage.h */,
 				44B7DEC8230EA1860075EB4C /* UIImage+FLPImage.m */,
+				444E6938230FC98E00EE32E4 /* UIBarButtonItem+Item.h */,
+				444E6939230FC98E00EE32E4 /* UIBarButtonItem+Item.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -401,6 +406,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44B7DEB2230E84540075EB4C /* FLPNewViewController.m in Sources */,
+				444E693A230FC98E00EE32E4 /* UIBarButtonItem+Item.m in Sources */,
 				44B7DEA8230E7A350075EB4C /* AppDelegate.m in Sources */,
 				44B7DEC5230E9AD70075EB4C /* FLPTabBarController.m in Sources */,
 				44B7DEBE230E873A0075EB4C /* FLPMeViewController.m in Sources */,
