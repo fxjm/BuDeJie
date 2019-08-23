@@ -8,7 +8,7 @@
 
 #import "FLPNavigationController.h"
 
-@interface FLPNavigationController()
+@interface FLPNavigationController()<UIGestureRecognizerDelegate>
 
 @end
 
@@ -26,6 +26,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self.interactivePopGestureRecognizer.delegate action:@selector(handleNavigationTransition:)];
+    
+    pan.delegate = self;
+    
+    [self.view addGestureRecognizer:pan];
+    
+    //禁用系统手势
+    self.interactivePopGestureRecognizer.enabled = NO;
+//    NSLog(@"%@",self.interactivePopGestureRecognizer);
+    
 }
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
@@ -41,6 +51,10 @@
 }
 
 
+#pragma mark - UIGestureRecognizerDelegate
+-(BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer{
+    return self.childViewControllers.count > 1;
+}
 
 
 @end
