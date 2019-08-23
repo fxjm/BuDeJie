@@ -18,6 +18,8 @@
 		44B7DEB5230E84620075EB4C /* FLPPublicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DEB4230E84620075EB4C /* FLPPublicViewController.m */; };
 		44B7DEB8230E846C0075EB4C /* FLPFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DEB7230E846C0075EB4C /* FLPFriendTrendsViewController.m */; };
 		44B7DEBE230E873A0075EB4C /* FLPMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DEBD230E873A0075EB4C /* FLPMeViewController.m */; };
+		44B7DEC5230E9AD70075EB4C /* FLPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DEC4230E9AD70075EB4C /* FLPTabBarController.m */; };
+		44B7DEC9230EA1860075EB4C /* UIImage+FLPImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DEC8230EA1860075EB4C /* UIImage+FLPImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,10 @@
 		44B7DEB7230E846C0075EB4C /* FLPFriendTrendsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPFriendTrendsViewController.m; sourceTree = "<group>"; };
 		44B7DEBC230E873A0075EB4C /* FLPMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPMeViewController.h; sourceTree = "<group>"; };
 		44B7DEBD230E873A0075EB4C /* FLPMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPMeViewController.m; sourceTree = "<group>"; };
+		44B7DEC3230E9AD70075EB4C /* FLPTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPTabBarController.h; sourceTree = "<group>"; };
+		44B7DEC4230E9AD70075EB4C /* FLPTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPTabBarController.m; sourceTree = "<group>"; };
+		44B7DEC7230EA1860075EB4C /* UIImage+FLPImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+FLPImage.h"; sourceTree = "<group>"; };
+		44B7DEC8230EA1860075EB4C /* UIImage+FLPImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FLPImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 		44B7DE8E230E7A350075EB4C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				44B7DEBF230E9ABD0075EB4C /* Main(主要) */,
 				44B7DEAC230E844E0075EB4C /* New(新帖) */,
 				44B7DE8F230E7A350075EB4C /* Essence(精华) */,
 				44B7DE9B230E7A350075EB4C /* Public(发布) */,
@@ -131,6 +138,7 @@
 		44B7DE97230E7A350075EB4C /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				44B7DEC6230EA1510075EB4C /* Category */,
 				44B7DE98230E7A350075EB4C /* AppDelegate.h */,
 				44B7DE9A230E7A350075EB4C /* AppDelegate.m */,
 				44B7DE99230E7A350075EB4C /* main.m */,
@@ -270,6 +278,48 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		44B7DEBF230E9ABD0075EB4C /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				44B7DEC0230E9ABD0075EB4C /* Controller */,
+				44B7DEC1230E9ABD0075EB4C /* Model */,
+				44B7DEC2230E9ABD0075EB4C /* View */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		44B7DEC0230E9ABD0075EB4C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44B7DEC3230E9AD70075EB4C /* FLPTabBarController.h */,
+				44B7DEC4230E9AD70075EB4C /* FLPTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44B7DEC1230E9ABD0075EB4C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44B7DEC2230E9ABD0075EB4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44B7DEC6230EA1510075EB4C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				44B7DEC7230EA1860075EB4C /* UIImage+FLPImage.h */,
+				44B7DEC8230EA1860075EB4C /* UIImage+FLPImage.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -344,9 +394,11 @@
 			files = (
 				44B7DEB2230E84540075EB4C /* FLPNewViewController.m in Sources */,
 				44B7DEA8230E7A350075EB4C /* AppDelegate.m in Sources */,
+				44B7DEC5230E9AD70075EB4C /* FLPTabBarController.m in Sources */,
 				44B7DEBE230E873A0075EB4C /* FLPMeViewController.m in Sources */,
 				44B7DEAB230E84180075EB4C /* FLPEssenceViewController.m in Sources */,
 				44B7DEB5230E84620075EB4C /* FLPPublicViewController.m in Sources */,
+				44B7DEC9230EA1860075EB4C /* UIImage+FLPImage.m in Sources */,
 				44B7DEA7230E7A350075EB4C /* main.m in Sources */,
 				44B7DEB8230E846C0075EB4C /* FLPFriendTrendsViewController.m in Sources */,
 			);

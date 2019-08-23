@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FLPTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -17,23 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    //精华
-    
-    //新帖
-    
-    //发布
-    
-    //关注
-    
-    //我
+
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    
-    UITabBarController *tab = [[UITabBarController alloc] init];
-    
+    FLPTabBarController *tab = [[FLPTabBarController alloc] init];
+  
     self.window.rootViewController =tab;
-    
     [self.window makeKeyAndVisible];
     return YES;
 }
