@@ -13,6 +13,7 @@
 #import "FLPPublicViewController.h"
 #import "FLPMeViewController.h"
 #import "UIImage+FLPImage.h"
+#import "FLPTabBar.h"
 @interface FLPTabBarController ()
 
 @end
@@ -44,6 +45,9 @@
     
     //设置所有自控制器的标题和图片
     [self setUpAllTitle];
+    
+    //设置tabbar
+    [self setUpTabBar];
 }
 
 #pragma mark -  设置所有的子控制器
@@ -59,10 +63,6 @@
     UINavigationController *newNav = [[UINavigationController alloc] initWithRootViewController:newVc];
     [self addChildViewController:newNav];
     
-    //发布
-    FLPPublicViewController *publicVc = [[FLPPublicViewController alloc] init];
-    [self addChildViewController:publicVc];
-    
     //关注
     FLPFriendTrendsViewController *friendTrendsVc = [[FLPFriendTrendsViewController alloc] init];
     UINavigationController *friendTrendsNav = [[UINavigationController alloc] initWithRootViewController:friendTrendsVc];
@@ -76,29 +76,66 @@
 
 #pragma mark - 设置所有自控制器的标题和图片
 -(void)setUpAllTitle{
+    //精华
     UINavigationController *essenceNav = self.childViewControllers[0];
     essenceNav.tabBarItem.title = @"精华";
     essenceNav.tabBarItem.image = [UIImage imageNamed:@"tabBar_essence_icon"];
     essenceNav.tabBarItem.selectedImage = [UIImage imageOriginalWithName:@"tabBar_essence_click_icon"];
     
+    //新帖
     UINavigationController *newNav = self.childViewControllers[1];
     newNav.tabBarItem.title = @"新帖";
     newNav.tabBarItem.image = [UIImage imageNamed:@"tabBar_new_icon"];
     newNav.tabBarItem.selectedImage = [UIImage imageOriginalWithName:@"tabBar_new_click_icon"];
     
-    UIViewController *publicVc = self.childViewControllers[2];
-    publicVc.tabBarItem.image = [UIImage imageNamed:@"tabBar_publish_icon"];
-    publicVc.tabBarItem.selectedImage = [UIImage imageOriginalWithName:@"tabBar_publish_click_icon"];
-    
-    UINavigationController *friendTrendsNav = self.childViewControllers[3];
+    //关注
+    UINavigationController *friendTrendsNav = self.childViewControllers[2];
     friendTrendsNav.tabBarItem.title = @"关注";
     friendTrendsNav.tabBarItem.image = [UIImage imageNamed:@"tabBar_friendTrends_icon"];
     friendTrendsNav.tabBarItem.selectedImage = [UIImage imageOriginalWithName:@"tabBar_friendTrends_click_icon"];
     
-    UINavigationController *meNav = self.childViewControllers[4];
+    //我
+    UINavigationController *meNav = self.childViewControllers[3];
     meNav.tabBarItem.title = @"我";
-    meNav.tabBarItem.image = [UIImage imageNamed:@"tabBar_new_icon"];
-    meNav.tabBarItem.selectedImage = [UIImage imageOriginalWithName:@"tabBar_new_click_icon"];
+    meNav.tabBarItem.image = [UIImage imageNamed:@"tabBar_me_icon"];
+    meNav.tabBarItem.selectedImage = [UIImage imageOriginalWithName:@"tabBar_me_click_icon"];
 }
 
+
+#pragma mark - 设置tabbar
+-(void)setUpTabBar{
+    
+    FLPTabBar *tabBar = [[FLPTabBar alloc] init];
+    [self setValue:tabBar forKey:@"tabBar"];
+    
+    
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+//     NSLog(@"%@",self.tabBar);
+//    NSLog(@"%@",self.tabBar.subviews);
+}
 @end
+//- (void)viewWillLayoutSubviews{
+//    [super viewWillLayoutSubviews];
+//    //移除tabbar的子控件
+//    for (UIView *child in self.tabBar.subviews) {
+//        if ([child isKindOfClass:NSClassFromString(@"UITabBarButton")]) {
+//            [child removeFromSuperview];
+//        }
+//    }
+//
+//}
+//- (void)setUpTabBar{
+//
+//    XYNTabBarView *tabBarV = [[XYNTabBarView alloc] init];
+//    tabBarV.items = self.items;
+//    [self.tabBar addSubview:tabBarV];
+//    tabBarV.backgroundColor = [UIColor redColor];
+//    tabBarV.frame = self.tabBar.bounds;
+//    tabBarV.delegate = self;
+//
+//
+//
+//}
