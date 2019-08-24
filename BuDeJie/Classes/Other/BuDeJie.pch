@@ -21,6 +21,29 @@
 #import "UIView+Frame.h"
 #import "UIBarButtonItem+Item.h"
 
+
+/***********屏幕适配*************/
+#define FLPScreenW [UIScreen mainScreen].bounds.size.width
+#define FLPScreenH [UIScreen mainScreen].bounds.size.height
+/**所有的iPhoneX*/
+#define ALL_iPHONEX iphoneX || iphoneXS || iphoneXSMax || iphoneXR
+/**所有的iPhone5，5s,5c SE */
+#define ALL_iPHONE5ANDSE (FLPScreenH == 568)
+/**所有的iPhone6,7,8*/
+#define ALL_iPHONE678 (FLPScreenH == 667)
+/**所有的iPhone6P,7P,8P*/
+#define ALL_iPHONE678P (FLPScreenH == 736)
+
+#define iphoneXR (FLPScreenH == 896)
+#define iphoneXSMax (FLPScreenH == 896)
+#define iphoneXS (FLPScreenH == 812)
+#define iphoneX (FLPScreenH == 812)
+#define iphone6P (FLPScreenH == 736)
+#define iphone6 (FLPScreenH == 667)
+#define iphone5 (FLPScreenH == 568)
+#define iphone4 (FLPScreenH == 480)
+/***********屏幕适配*************/
+
 #define FLPFunc FLPLog(@"%s",__func__)
 
 #ifdef DEBUG // 调试

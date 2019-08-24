@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		440573522310CEB900F4A258 /* FLPADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 440573502310CEB900F4A258 /* FLPADViewController.m */; };
+		440573532310CEB900F4A258 /* FLPADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 440573512310CEB900F4A258 /* FLPADViewController.xib */; };
+		4405735C2310D0B100F4A258 /* LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 440573552310D0B000F4A258 /* LaunchImage@2x.png */; };
+		4405735D2310D0B100F4A258 /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 440573562310D0B000F4A258 /* LaunchImage-568h@2x.png */; };
+		4405735E2310D0B100F4A258 /* LaunchImage-800-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 440573572310D0B000F4A258 /* LaunchImage-800-667h@2x.png */; };
+		4405735F2310D0B100F4A258 /* LaunchImage-800-Portrait-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 440573582310D0B000F4A258 /* LaunchImage-800-Portrait-736h@3x.png */; };
+		440573602310D0B100F4A258 /* LaunchImage-700@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 440573592310D0B000F4A258 /* LaunchImage-700@2x.png */; };
+		440573612310D0B100F4A258 /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4405735A2310D0B000F4A258 /* LaunchImage-700-568h@2x.png */; };
+		440573622310D0B100F4A258 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4405735B2310D0B000F4A258 /* LaunchImage.png */; };
 		444E6933230F94CD00EE32E4 /* FLPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 444E6932230F94CD00EE32E4 /* FLPTabBar.m */; };
 		444E6936230FBBCE00EE32E4 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 444E6934230FBBCD00EE32E4 /* UIView+Frame.m */; };
 		444E693A230FC98E00EE32E4 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 444E6939230FC98E00EE32E4 /* UIBarButtonItem+Item.m */; };
@@ -24,9 +33,21 @@
 		44B7DEBE230E873A0075EB4C /* FLPMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DEBD230E873A0075EB4C /* FLPMeViewController.m */; };
 		44B7DEC5230E9AD70075EB4C /* FLPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DEC4230E9AD70075EB4C /* FLPTabBarController.m */; };
 		44B7DEC9230EA1860075EB4C /* UIImage+FLPImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DEC8230EA1860075EB4C /* UIImage+FLPImage.m */; };
+		61FCCAA6D28FA674D14C9726 /* libPods-BuDeJie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F91EBF08A65CE6F4E92DFF8B /* libPods-BuDeJie.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31A60B3411179F9E23B18949 /* Pods-BuDeJie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJie.release.xcconfig"; path = "Target Support Files/Pods-BuDeJie/Pods-BuDeJie.release.xcconfig"; sourceTree = "<group>"; };
+		4405734F2310CEB900F4A258 /* FLPADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPADViewController.h; sourceTree = "<group>"; };
+		440573502310CEB900F4A258 /* FLPADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPADViewController.m; sourceTree = "<group>"; };
+		440573512310CEB900F4A258 /* FLPADViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FLPADViewController.xib; sourceTree = "<group>"; };
+		440573552310D0B000F4A258 /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage@2x.png"; sourceTree = "<group>"; };
+		440573562310D0B000F4A258 /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x.png"; sourceTree = "<group>"; };
+		440573572310D0B000F4A258 /* LaunchImage-800-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-667h@2x.png"; sourceTree = "<group>"; };
+		440573582310D0B000F4A258 /* LaunchImage-800-Portrait-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Portrait-736h@3x.png"; sourceTree = "<group>"; };
+		440573592310D0B000F4A258 /* LaunchImage-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700@2x.png"; sourceTree = "<group>"; };
+		4405735A2310D0B000F4A258 /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
+		4405735B2310D0B000F4A258 /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
 		444E6931230F94CD00EE32E4 /* FLPTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPTabBar.h; sourceTree = "<group>"; };
 		444E6932230F94CD00EE32E4 /* FLPTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPTabBar.m; sourceTree = "<group>"; };
 		444E6934230FBBCD00EE32E4 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
@@ -60,6 +81,8 @@
 		44B7DEC4230E9AD70075EB4C /* FLPTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPTabBarController.m; sourceTree = "<group>"; };
 		44B7DEC7230EA1860075EB4C /* UIImage+FLPImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+FLPImage.h"; sourceTree = "<group>"; };
 		44B7DEC8230EA1860075EB4C /* UIImage+FLPImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FLPImage.m"; sourceTree = "<group>"; };
+		C37A1C82E42293138ABEEF5A /* Pods-BuDeJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJie.debug.xcconfig"; path = "Target Support Files/Pods-BuDeJie/Pods-BuDeJie.debug.xcconfig"; sourceTree = "<group>"; };
+		F91EBF08A65CE6F4E92DFF8B /* libPods-BuDeJie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuDeJie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,12 +90,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61FCCAA6D28FA674D14C9726 /* libPods-BuDeJie.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		440573482310CE7A00F4A258 /* AD(广告) */ = {
+			isa = PBXGroup;
+			children = (
+				440573492310CE7A00F4A258 /* Controller */,
+				4405734A2310CE7A00F4A258 /* Model */,
+				4405734B2310CE7A00F4A258 /* View */,
+			);
+			path = "AD(广告)";
+			sourceTree = "<group>";
+		};
+		440573492310CE7A00F4A258 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4405734F2310CEB900F4A258 /* FLPADViewController.h */,
+				440573502310CEB900F4A258 /* FLPADViewController.m */,
+				440573512310CEB900F4A258 /* FLPADViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4405734A2310CE7A00F4A258 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4405734B2310CE7A00F4A258 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		440573542310D0B000F4A258 /* 启动图片 */ = {
+			isa = PBXGroup;
+			children = (
+				440573552310D0B000F4A258 /* LaunchImage@2x.png */,
+				440573562310D0B000F4A258 /* LaunchImage-568h@2x.png */,
+				440573572310D0B000F4A258 /* LaunchImage-800-667h@2x.png */,
+				440573582310D0B000F4A258 /* LaunchImage-800-Portrait-736h@3x.png */,
+				440573592310D0B000F4A258 /* LaunchImage-700@2x.png */,
+				4405735A2310D0B000F4A258 /* LaunchImage-700-568h@2x.png */,
+				4405735B2310D0B000F4A258 /* LaunchImage.png */,
+			);
+			path = "启动图片";
+			sourceTree = "<group>";
+		};
 		444E693B230FDE6C00EE32E4 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +183,8 @@
 			children = (
 				44B7DE75230E61490075EB4C /* BuDeJie */,
 				44B7DE74230E61490075EB4C /* Products */,
+				CBC5E47B695B4B68232B804E /* Pods */,
+				7F6095AB15DE8D3AAC3E03B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +204,7 @@
 				44B7DE81230E614B0075EB4C /* LaunchScreen.storyboard */,
 				44B7DE84230E614B0075EB4C /* Info.plist */,
 				44B7DE8C230E6A3C0075EB4C /* 笔记.rtf */,
+				440573542310D0B000F4A258 /* 启动图片 */,
 			);
 			path = BuDeJie;
 			sourceTree = "<group>";
@@ -137,6 +212,7 @@
 		44B7DE8E230E7A350075EB4C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				440573482310CE7A00F4A258 /* AD(广告) */,
 				444E693B230FDE6C00EE32E4 /* Setting */,
 				44B7DEBF230E9ABD0075EB4C /* Main(主要) */,
 				44B7DEAC230E844E0075EB4C /* New(新帖) */,
@@ -376,6 +452,24 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		7F6095AB15DE8D3AAC3E03B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F91EBF08A65CE6F4E92DFF8B /* libPods-BuDeJie.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBC5E47B695B4B68232B804E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C37A1C82E42293138ABEEF5A /* Pods-BuDeJie.debug.xcconfig */,
+				31A60B3411179F9E23B18949 /* Pods-BuDeJie.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -383,9 +477,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44B7DE89230E614B0075EB4C /* Build configuration list for PBXNativeTarget "BuDeJie" */;
 			buildPhases = (
+				BFBA64A93913FFC88D6BEB9F /* [CP] Check Pods Manifest.lock */,
 				44B7DE6F230E61490075EB4C /* Sources */,
 				44B7DE70230E61490075EB4C /* Frameworks */,
 				44B7DE71230E61490075EB4C /* Resources */,
+				413091BB8D7430B358F003F5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -436,11 +532,66 @@
 			files = (
 				44B7DE8D230E6A3C0075EB4C /* 笔记.rtf in Resources */,
 				44B7DE83230E614B0075EB4C /* LaunchScreen.storyboard in Resources */,
+				440573532310CEB900F4A258 /* FLPADViewController.xib in Resources */,
 				44B7DE80230E614B0075EB4C /* Assets.xcassets in Resources */,
+				4405735F2310D0B100F4A258 /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
+				4405735D2310D0B100F4A258 /* LaunchImage-568h@2x.png in Resources */,
+				440573612310D0B100F4A258 /* LaunchImage-700-568h@2x.png in Resources */,
+				440573602310D0B100F4A258 /* LaunchImage-700@2x.png in Resources */,
+				4405735E2310D0B100F4A258 /* LaunchImage-800-667h@2x.png in Resources */,
+				4405735C2310D0B100F4A258 /* LaunchImage@2x.png in Resources */,
+				440573622310D0B100F4A258 /* LaunchImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		413091BB8D7430B358F003F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BuDeJie/Pods-BuDeJie-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BuDeJie/Pods-BuDeJie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFBA64A93913FFC88D6BEB9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuDeJie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		44B7DE6F230E61490075EB4C /* Sources */ = {
@@ -452,6 +603,7 @@
 				444E6944230FF9EA00EE32E4 /* FLPSettingViewController.m in Sources */,
 				44B7DEA8230E7A350075EB4C /* AppDelegate.m in Sources */,
 				44B7DEC5230E9AD70075EB4C /* FLPTabBarController.m in Sources */,
+				440573522310CEB900F4A258 /* FLPADViewController.m in Sources */,
 				44B7DEBE230E873A0075EB4C /* FLPMeViewController.m in Sources */,
 				44B7DEAB230E84180075EB4C /* FLPEssenceViewController.m in Sources */,
 				44B7DEB5230E84620075EB4C /* FLPPublicViewController.m in Sources */,
@@ -592,6 +744,7 @@
 		};
 		44B7DE8A230E614B0075EB4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C37A1C82E42293138ABEEF5A /* Pods-BuDeJie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -613,6 +766,7 @@
 		};
 		44B7DE8B230E614B0075EB4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31A60B3411179F9E23B18949 /* Pods-BuDeJie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
