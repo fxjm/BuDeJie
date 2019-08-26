@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "FLPTabBarController.h"
-
+#import "FLPADViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -22,9 +22,10 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    FLPTabBarController *tab = [[FLPTabBarController alloc] init];
+//    FLPTabBarController *tab = [[FLPTabBarController alloc] init];
+    FLPADViewController *adVc = [[FLPADViewController alloc] init];
   
-    self.window.rootViewController =tab;
+    self.window.rootViewController =adVc;
     [self.window makeKeyAndVisible];
     return YES;
 }

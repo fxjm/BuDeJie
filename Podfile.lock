@@ -16,23 +16,33 @@ PODS:
     - AFNetworking/NSURLSession
   - MJExtension (3.0.15.1)
   - MJRefresh (3.1.15.7)
+  - SDWebImage (5.0.0-beta5):
+    - SDWebImage/Core (= 5.0.0-beta5)
+  - SDWebImage/Core (5.0.0-beta5)
+  - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - AFNetworking
   - MJExtension
   - MJRefresh
+  - SDWebImage (~> 5.0.0-beta5)
+  - SVProgressHUD (~> 2.2.5)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
     - MJExtension
     - MJRefresh
+    - SDWebImage
+    - SVProgressHUD
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  SDWebImage: fd609df53c0f55fdcd4705bd14c01c9d5c348d0c
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 6438a6f2cb17eb83237d9c23ec5f5e976203bdd1
+PODFILE CHECKSUM: 45773b28d69e67562aa0a96436f95533ce5b9354
 
 COCOAPODS: 1.6.1

@@ -16,6 +16,12 @@
 		440573602310D0B100F4A258 /* LaunchImage-700@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 440573592310D0B000F4A258 /* LaunchImage-700@2x.png */; };
 		440573612310D0B100F4A258 /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4405735A2310D0B000F4A258 /* LaunchImage-700-568h@2x.png */; };
 		440573622310D0B100F4A258 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4405735B2310D0B000F4A258 /* LaunchImage.png */; };
+		44177DE423138B3700C4A6C8 /* FLPLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44177DE223138B3700C4A6C8 /* FLPLoginRegisterViewController.m */; };
+		44177DE523138B3700C4A6C8 /* FLPLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44177DE323138B3700C4A6C8 /* FLPLoginRegisterViewController.xib */; };
+		44177DE82313CB0000C4A6C8 /* FLPAdItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 44177DE72313CB0000C4A6C8 /* FLPAdItem.m */; };
+		4424DDF12312BA160084C80A /* NSObject+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 4424DDEC2312BA150084C80A /* NSObject+Log.m */; };
+		4424DDF22312BA160084C80A /* UIImage+Antialias.m in Sources */ = {isa = PBXBuildFile; fileRef = 4424DDED2312BA150084C80A /* UIImage+Antialias.m */; };
+		4424DDF32312BA160084C80A /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4424DDF02312BA160084C80A /* UIColor+Hex.m */; };
 		444E6933230F94CD00EE32E4 /* FLPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 444E6932230F94CD00EE32E4 /* FLPTabBar.m */; };
 		444E6936230FBBCE00EE32E4 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 444E6934230FBBCD00EE32E4 /* UIView+Frame.m */; };
 		444E693A230FC98E00EE32E4 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 444E6939230FC98E00EE32E4 /* UIBarButtonItem+Item.m */; };
@@ -48,6 +54,17 @@
 		440573592310D0B000F4A258 /* LaunchImage-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700@2x.png"; sourceTree = "<group>"; };
 		4405735A2310D0B000F4A258 /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
 		4405735B2310D0B000F4A258 /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		44177DE123138B3700C4A6C8 /* FLPLoginRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPLoginRegisterViewController.h; sourceTree = "<group>"; };
+		44177DE223138B3700C4A6C8 /* FLPLoginRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPLoginRegisterViewController.m; sourceTree = "<group>"; };
+		44177DE323138B3700C4A6C8 /* FLPLoginRegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FLPLoginRegisterViewController.xib; sourceTree = "<group>"; };
+		44177DE62313CB0000C4A6C8 /* FLPAdItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPAdItem.h; sourceTree = "<group>"; };
+		44177DE72313CB0000C4A6C8 /* FLPAdItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPAdItem.m; sourceTree = "<group>"; };
+		4424DDEB2312BA150084C80A /* UIImage+Antialias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Antialias.h"; sourceTree = "<group>"; };
+		4424DDEC2312BA150084C80A /* NSObject+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Log.m"; sourceTree = "<group>"; };
+		4424DDED2312BA150084C80A /* UIImage+Antialias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Antialias.m"; sourceTree = "<group>"; };
+		4424DDEE2312BA160084C80A /* NSObject+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Log.h"; sourceTree = "<group>"; };
+		4424DDEF2312BA160084C80A /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		4424DDF02312BA160084C80A /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		444E6931230F94CD00EE32E4 /* FLPTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPTabBar.h; sourceTree = "<group>"; };
 		444E6932230F94CD00EE32E4 /* FLPTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPTabBar.m; sourceTree = "<group>"; };
 		444E6934230FBBCD00EE32E4 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
@@ -120,6 +137,8 @@
 		4405734A2310CE7A00F4A258 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				44177DE62313CB0000C4A6C8 /* FLPAdItem.h */,
+				44177DE72313CB0000C4A6C8 /* FLPAdItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -318,6 +337,9 @@
 			children = (
 				44B7DEB6230E846C0075EB4C /* FLPFriendTrendsViewController.h */,
 				44B7DEB7230E846C0075EB4C /* FLPFriendTrendsViewController.m */,
+				44177DE123138B3700C4A6C8 /* FLPLoginRegisterViewController.h */,
+				44177DE223138B3700C4A6C8 /* FLPLoginRegisterViewController.m */,
+				44177DE323138B3700C4A6C8 /* FLPLoginRegisterViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -442,6 +464,12 @@
 		44B7DEC6230EA1510075EB4C /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				4424DDEE2312BA160084C80A /* NSObject+Log.h */,
+				4424DDEC2312BA150084C80A /* NSObject+Log.m */,
+				4424DDEF2312BA160084C80A /* UIColor+Hex.h */,
+				4424DDF02312BA160084C80A /* UIColor+Hex.m */,
+				4424DDEB2312BA150084C80A /* UIImage+Antialias.h */,
+				4424DDED2312BA150084C80A /* UIImage+Antialias.m */,
 				444E6935230FBBCE00EE32E4 /* UIView+Frame.h */,
 				444E6934230FBBCD00EE32E4 /* UIView+Frame.m */,
 				44B7DEC7230EA1860075EB4C /* UIImage+FLPImage.h */,
@@ -466,7 +494,6 @@
 				C37A1C82E42293138ABEEF5A /* Pods-BuDeJie.debug.xcconfig */,
 				31A60B3411179F9E23B18949 /* Pods-BuDeJie.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -532,6 +559,7 @@
 			files = (
 				44B7DE8D230E6A3C0075EB4C /* 笔记.rtf in Resources */,
 				44B7DE83230E614B0075EB4C /* LaunchScreen.storyboard in Resources */,
+				44177DE523138B3700C4A6C8 /* FLPLoginRegisterViewController.xib in Resources */,
 				440573532310CEB900F4A258 /* FLPADViewController.xib in Resources */,
 				44B7DE80230E614B0075EB4C /* Assets.xcassets in Resources */,
 				4405735F2310D0B100F4A258 /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
@@ -557,12 +585,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BuDeJie/Pods-BuDeJie-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -602,7 +632,9 @@
 				444E693A230FC98E00EE32E4 /* UIBarButtonItem+Item.m in Sources */,
 				444E6944230FF9EA00EE32E4 /* FLPSettingViewController.m in Sources */,
 				44B7DEA8230E7A350075EB4C /* AppDelegate.m in Sources */,
+				4424DDF22312BA160084C80A /* UIImage+Antialias.m in Sources */,
 				44B7DEC5230E9AD70075EB4C /* FLPTabBarController.m in Sources */,
+				44177DE423138B3700C4A6C8 /* FLPLoginRegisterViewController.m in Sources */,
 				440573522310CEB900F4A258 /* FLPADViewController.m in Sources */,
 				44B7DEBE230E873A0075EB4C /* FLPMeViewController.m in Sources */,
 				44B7DEAB230E84180075EB4C /* FLPEssenceViewController.m in Sources */,
@@ -610,8 +642,11 @@
 				444E6941230FE8D700EE32E4 /* FLPNavigationController.m in Sources */,
 				44B7DEC9230EA1860075EB4C /* UIImage+FLPImage.m in Sources */,
 				44B7DEA7230E7A350075EB4C /* main.m in Sources */,
+				4424DDF32312BA160084C80A /* UIColor+Hex.m in Sources */,
 				444E6933230F94CD00EE32E4 /* FLPTabBar.m in Sources */,
+				44177DE82313CB0000C4A6C8 /* FLPAdItem.m in Sources */,
 				44B7DEB8230E846C0075EB4C /* FLPFriendTrendsViewController.m in Sources */,
+				4424DDF12312BA160084C80A /* NSObject+Log.m in Sources */,
 				444E6936230FBBCE00EE32E4 /* UIView+Frame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
