@@ -7,7 +7,7 @@
 //
 
 #import "FLPNewViewController.h"
-
+#import "FLPTagSubTableViewController.h"
 @interface FLPNewViewController ()
 
 @end
@@ -30,7 +30,9 @@
 
 #pragma mark - titleAction
 -(void)tagSub{
-    FLPFunc;
+    FLPTagSubTableViewController *tabSubVc = [[FLPTagSubTableViewController alloc] init];
+    
+    [self.navigationController pushViewController:tabSubVc animated:YES];
 }
 
 @end

@@ -17,35 +17,37 @@
 @property (weak, nonatomic) IBOutlet UIImageView *launchImageView;
 @property (weak, nonatomic) IBOutlet UIView *adContainView;
 @property (nonatomic, strong) FLPAdItem *item;
-@property (nonatomic, strong) UIImageView *adView;
-@property (weak, nonatomic) IBOutlet UIButton *jumpBtn;
+
+@property (nonatomic, weak) UIImageView *adView;
+
 @property (nonatomic, weak) NSTimer *timer;
+
+@property (weak, nonatomic) IBOutlet UIButton *jumpBtn;
+
 @end
 
 @implementation FLPADViewController
 
-- (UIImageView *)adView
-{
-    if (_adView == nil) {
-        UIImageView *imageView = [[UIImageView alloc] init];
-//        imageView.backgroundColor = UIColor.redColor;
-        [self.adContainView addSubview:imageView];
+- (UIImageView *)adView{
+    if (!_adView) {
+        UIImageView *adView = [[UIImageView alloc] init];
+        adView.frame = self.adContainView.bounds;
+        adView.userInteractionEnabled = YES;
+        _adView = adView;
+        [self.adContainView addSubview:_adView];
         
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap)];
-        [imageView addGestureRecognizer:tap];
-        
-        imageView.userInteractionEnabled = YES;
-        
-        _adView = imageView;
+        [_adView addGestureRecognizer:tap];
     }
-    
     return _adView;
 }
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setLaunchImage];
     [self loadAdData];
-    _timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timeChange) userInfo:nil repeats:YES];
+   
+    _timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(timeChange) userInfo:nil repeats:YES];
     //http://dspsdk.spriteapp.com/get?ad=self.baisibudejieHD.iphone.splash.18110717002
     
     //首页顶部分类:http://s.budejie.com/public/list-appbar/bsbdjhd-iphone-5.1.6/
@@ -69,10 +71,9 @@
         // 字典转模型
         self.item = [FLPAdItem mj_objectWithKeyValues:adDict];
         
-        self.adView.frame = CGRectMake(0, 0, UIScreen.mainScreen.bounds.size.width, UIScreen.mainScreen.bounds.size.height);
-        [self.adView sd_setImageWithURL: [NSURL URLWithString:self.item.w_picurl] completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
-            FLPLog(@"%@",error);
-        }];
+        
+        [self.adView sd_setImageWithURL:[NSURL URLWithString:self.item.w_picurl]];
+        
        
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         FLPLog(@"%@",error);
@@ -120,11 +121,10 @@
 
 - (void)timeChange{
     static int i = 3;
-    if (i == 0 ) {
+    if (i == 0) {
         [self jump:nil];
     }else{
-        NSString *title = [NSString stringWithFormat:@"跳过(%d)",i];
-        [self.jumpBtn setTitle:title forState:UIControlStateNormal];
+        [self.jumpBtn setTitle:[NSString stringWithFormat:@"跳过(%d)",i] forState:UIControlStateNormal];
         i--;
     }
 }

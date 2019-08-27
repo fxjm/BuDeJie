@@ -18,5 +18,6 @@
 @property CGFloat flp_height;
 @property CGFloat flp_x;
 @property CGFloat flp_y;
-
+@property CGFloat flp_centerX;
+@property CGFloat flp_centerY;
 @end

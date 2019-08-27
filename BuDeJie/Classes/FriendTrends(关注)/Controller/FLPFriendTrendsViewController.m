@@ -7,7 +7,7 @@
 //
 
 #import "FLPFriendTrendsViewController.h"
-
+#import "FLPLoginRegisterViewController.h"
 @interface FLPFriendTrendsViewController ()
 
 @end
@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = UIColor.purpleColor;
+//    self.view.backgroundColor = UIColor.purpleColor;
     [self setNavTitle];
 }
 
@@ -31,6 +31,12 @@
 #pragma mark - titleAction
 -(void)friendsRecomment{
     FLPFunc;
+}
+- (IBAction)goLogin:(UIButton *)sender {
+    
+    FLPLoginRegisterViewController *loginVc = [[FLPLoginRegisterViewController alloc] init];
+    
+    [self presentViewController:loginVc animated:YES completion:nil];
 }
 
 @end

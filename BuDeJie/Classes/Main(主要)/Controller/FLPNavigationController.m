@@ -39,12 +39,16 @@
 }
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
-    //真正的跳转
-    [super pushViewController:viewController animated:animated];
+   
     //非跟控制器才设置返回
-    if (self.childViewControllers.count > 1) {
+    if (self.childViewControllers.count > 0) {
+        viewController.hidesBottomBarWhenPushed = YES;
          viewController.navigationItem.leftBarButtonItem = [UIBarButtonItem backItemWithImage:[UIImage imageNamed:@"navigationButtonReturn"] hightImage:[UIImage imageNamed:@"navigationButtonReturnClick"] target:self action:@selector(back) title:@"返回"];
     }
+     
+    //真正的跳转
+    [super pushViewController:viewController animated:animated];
+    
 }
 -(void)back{
     [self popViewControllerAnimated:YES];

@@ -43,8 +43,6 @@
             i++;
         }
     }
-    
     self.plusButton.frame = CGRectMake(btnW * 2, btnY, btnW, btnH);
-    
 }
 @end

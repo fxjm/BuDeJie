@@ -27,6 +27,9 @@
 		444E693A230FC98E00EE32E4 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 444E6939230FC98E00EE32E4 /* UIBarButtonItem+Item.m */; };
 		444E6941230FE8D700EE32E4 /* FLPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 444E6940230FE8D700EE32E4 /* FLPNavigationController.m */; };
 		444E6944230FF9EA00EE32E4 /* FLPSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 444E6943230FF9EA00EE32E4 /* FLPSettingViewController.m */; };
+		44B7251723151FA600DC02D4 /* FLPThirdBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7251623151FA600DC02D4 /* FLPThirdBtn.m */; };
+		44B7251A2315216B00DC02D4 /* FLPLoginRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B725192315216B00DC02D4 /* FLPLoginRegisterView.m */; };
+		44B7251C2315217700DC02D4 /* FLPLoginRegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44B7251B2315217700DC02D4 /* FLPLoginRegisterView.xib */; };
 		44B7DE80230E614B0075EB4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B7DE7F230E614B0075EB4C /* Assets.xcassets */; };
 		44B7DE83230E614B0075EB4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B7DE81230E614B0075EB4C /* LaunchScreen.storyboard */; };
 		44B7DE8D230E6A3C0075EB4C /* 笔记.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 44B7DE8C230E6A3C0075EB4C /* 笔记.rtf */; };
@@ -39,6 +42,13 @@
 		44B7DEBE230E873A0075EB4C /* FLPMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DEBD230E873A0075EB4C /* FLPMeViewController.m */; };
 		44B7DEC5230E9AD70075EB4C /* FLPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DEC4230E9AD70075EB4C /* FLPTabBarController.m */; };
 		44B7DEC9230EA1860075EB4C /* UIImage+FLPImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DEC8230EA1860075EB4C /* UIImage+FLPImage.m */; };
+		44CC95DD2314E221009B656D /* FLPTagSubTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC95DC2314E221009B656D /* FLPTagSubTableViewController.m */; };
+		44CC95E02314F268009B656D /* FLPSubTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC95DF2314F268009B656D /* FLPSubTag.m */; };
+		44CC95E42314F306009B656D /* FLPSubTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC95E22314F306009B656D /* FLPSubTagCell.m */; };
+		44CC95E52314F306009B656D /* FLPSubTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44CC95E32314F306009B656D /* FLPSubTagCell.xib */; };
+		44CC95E72315031C009B656D /* FLPFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44CC95E62315031C009B656D /* FLPFriendTrendsViewController.xib */; };
+		44CC95EA2315124B009B656D /* FLPFastLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC95E92315124B009B656D /* FLPFastLoginView.m */; };
+		44CC95EC23151254009B656D /* FLPFastLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44CC95EB23151254009B656D /* FLPFastLoginView.xib */; };
 		61FCCAA6D28FA674D14C9726 /* libPods-BuDeJie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F91EBF08A65CE6F4E92DFF8B /* libPods-BuDeJie.a */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +86,11 @@
 		444E6940230FE8D700EE32E4 /* FLPNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPNavigationController.m; sourceTree = "<group>"; };
 		444E6942230FF9EA00EE32E4 /* FLPSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPSettingViewController.h; sourceTree = "<group>"; };
 		444E6943230FF9EA00EE32E4 /* FLPSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPSettingViewController.m; sourceTree = "<group>"; };
+		44B7251523151FA600DC02D4 /* FLPThirdBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPThirdBtn.h; sourceTree = "<group>"; };
+		44B7251623151FA600DC02D4 /* FLPThirdBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPThirdBtn.m; sourceTree = "<group>"; };
+		44B725182315216B00DC02D4 /* FLPLoginRegisterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPLoginRegisterView.h; sourceTree = "<group>"; };
+		44B725192315216B00DC02D4 /* FLPLoginRegisterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPLoginRegisterView.m; sourceTree = "<group>"; };
+		44B7251B2315217700DC02D4 /* FLPLoginRegisterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FLPLoginRegisterView.xib; sourceTree = "<group>"; };
 		44B7DE73230E61490075EB4C /* BuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B7DE7F230E614B0075EB4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44B7DE82230E614B0075EB4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,6 +113,17 @@
 		44B7DEC4230E9AD70075EB4C /* FLPTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPTabBarController.m; sourceTree = "<group>"; };
 		44B7DEC7230EA1860075EB4C /* UIImage+FLPImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+FLPImage.h"; sourceTree = "<group>"; };
 		44B7DEC8230EA1860075EB4C /* UIImage+FLPImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FLPImage.m"; sourceTree = "<group>"; };
+		44CC95DB2314E221009B656D /* FLPTagSubTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPTagSubTableViewController.h; sourceTree = "<group>"; };
+		44CC95DC2314E221009B656D /* FLPTagSubTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPTagSubTableViewController.m; sourceTree = "<group>"; };
+		44CC95DE2314F268009B656D /* FLPSubTag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPSubTag.h; sourceTree = "<group>"; };
+		44CC95DF2314F268009B656D /* FLPSubTag.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPSubTag.m; sourceTree = "<group>"; };
+		44CC95E12314F306009B656D /* FLPSubTagCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPSubTagCell.h; sourceTree = "<group>"; };
+		44CC95E22314F306009B656D /* FLPSubTagCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPSubTagCell.m; sourceTree = "<group>"; };
+		44CC95E32314F306009B656D /* FLPSubTagCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FLPSubTagCell.xib; sourceTree = "<group>"; };
+		44CC95E62315031C009B656D /* FLPFriendTrendsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FLPFriendTrendsViewController.xib; sourceTree = "<group>"; };
+		44CC95E82315124B009B656D /* FLPFastLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPFastLoginView.h; sourceTree = "<group>"; };
+		44CC95E92315124B009B656D /* FLPFastLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPFastLoginView.m; sourceTree = "<group>"; };
+		44CC95EB23151254009B656D /* FLPFastLoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FLPFastLoginView.xib; sourceTree = "<group>"; };
 		C37A1C82E42293138ABEEF5A /* Pods-BuDeJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJie.debug.xcconfig"; path = "Target Support Files/Pods-BuDeJie/Pods-BuDeJie.debug.xcconfig"; sourceTree = "<group>"; };
 		F91EBF08A65CE6F4E92DFF8B /* libPods-BuDeJie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuDeJie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -337,6 +363,7 @@
 			children = (
 				44B7DEB6230E846C0075EB4C /* FLPFriendTrendsViewController.h */,
 				44B7DEB7230E846C0075EB4C /* FLPFriendTrendsViewController.m */,
+				44CC95E62315031C009B656D /* FLPFriendTrendsViewController.xib */,
 				44177DE123138B3700C4A6C8 /* FLPLoginRegisterViewController.h */,
 				44177DE223138B3700C4A6C8 /* FLPLoginRegisterViewController.m */,
 				44177DE323138B3700C4A6C8 /* FLPLoginRegisterViewController.xib */,
@@ -354,6 +381,14 @@
 		44B7DEA2230E7A350075EB4C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				44B725182315216B00DC02D4 /* FLPLoginRegisterView.h */,
+				44B725192315216B00DC02D4 /* FLPLoginRegisterView.m */,
+				44B7251B2315217700DC02D4 /* FLPLoginRegisterView.xib */,
+				44CC95E82315124B009B656D /* FLPFastLoginView.h */,
+				44CC95E92315124B009B656D /* FLPFastLoginView.m */,
+				44CC95EB23151254009B656D /* FLPFastLoginView.xib */,
+				44B7251523151FA600DC02D4 /* FLPThirdBtn.h */,
+				44B7251623151FA600DC02D4 /* FLPThirdBtn.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -406,6 +441,8 @@
 			children = (
 				44B7DEB0230E84540075EB4C /* FLPNewViewController.h */,
 				44B7DEB1230E84540075EB4C /* FLPNewViewController.m */,
+				44CC95DB2314E221009B656D /* FLPTagSubTableViewController.h */,
+				44CC95DC2314E221009B656D /* FLPTagSubTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -413,6 +450,8 @@
 		44B7DEAE230E844E0075EB4C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				44CC95DE2314F268009B656D /* FLPSubTag.h */,
+				44CC95DF2314F268009B656D /* FLPSubTag.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -420,6 +459,9 @@
 		44B7DEAF230E844E0075EB4C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				44CC95E12314F306009B656D /* FLPSubTagCell.h */,
+				44CC95E22314F306009B656D /* FLPSubTagCell.m */,
+				44CC95E32314F306009B656D /* FLPSubTagCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -560,11 +602,15 @@
 				44B7DE8D230E6A3C0075EB4C /* 笔记.rtf in Resources */,
 				44B7DE83230E614B0075EB4C /* LaunchScreen.storyboard in Resources */,
 				44177DE523138B3700C4A6C8 /* FLPLoginRegisterViewController.xib in Resources */,
+				44CC95E72315031C009B656D /* FLPFriendTrendsViewController.xib in Resources */,
+				44B7251C2315217700DC02D4 /* FLPLoginRegisterView.xib in Resources */,
 				440573532310CEB900F4A258 /* FLPADViewController.xib in Resources */,
 				44B7DE80230E614B0075EB4C /* Assets.xcassets in Resources */,
 				4405735F2310D0B100F4A258 /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
+				44CC95E52314F306009B656D /* FLPSubTagCell.xib in Resources */,
 				4405735D2310D0B100F4A258 /* LaunchImage-568h@2x.png in Resources */,
 				440573612310D0B100F4A258 /* LaunchImage-700-568h@2x.png in Resources */,
+				44CC95EC23151254009B656D /* FLPFastLoginView.xib in Resources */,
 				440573602310D0B100F4A258 /* LaunchImage-700@2x.png in Resources */,
 				4405735E2310D0B100F4A258 /* LaunchImage-800-667h@2x.png in Resources */,
 				4405735C2310D0B100F4A258 /* LaunchImage@2x.png in Resources */,
@@ -632,9 +678,14 @@
 				444E693A230FC98E00EE32E4 /* UIBarButtonItem+Item.m in Sources */,
 				444E6944230FF9EA00EE32E4 /* FLPSettingViewController.m in Sources */,
 				44B7DEA8230E7A350075EB4C /* AppDelegate.m in Sources */,
+				44CC95DD2314E221009B656D /* FLPTagSubTableViewController.m in Sources */,
 				4424DDF22312BA160084C80A /* UIImage+Antialias.m in Sources */,
+				44B7251A2315216B00DC02D4 /* FLPLoginRegisterView.m in Sources */,
 				44B7DEC5230E9AD70075EB4C /* FLPTabBarController.m in Sources */,
+				44CC95E42314F306009B656D /* FLPSubTagCell.m in Sources */,
 				44177DE423138B3700C4A6C8 /* FLPLoginRegisterViewController.m in Sources */,
+				44B7251723151FA600DC02D4 /* FLPThirdBtn.m in Sources */,
+				44CC95EA2315124B009B656D /* FLPFastLoginView.m in Sources */,
 				440573522310CEB900F4A258 /* FLPADViewController.m in Sources */,
 				44B7DEBE230E873A0075EB4C /* FLPMeViewController.m in Sources */,
 				44B7DEAB230E84180075EB4C /* FLPEssenceViewController.m in Sources */,
@@ -643,6 +694,7 @@
 				44B7DEC9230EA1860075EB4C /* UIImage+FLPImage.m in Sources */,
 				44B7DEA7230E7A350075EB4C /* main.m in Sources */,
 				4424DDF32312BA160084C80A /* UIColor+Hex.m in Sources */,
+				44CC95E02314F268009B656D /* FLPSubTag.m in Sources */,
 				444E6933230F94CD00EE32E4 /* FLPTabBar.m in Sources */,
 				44177DE82313CB0000C4A6C8 /* FLPAdItem.m in Sources */,
 				44B7DEB8230E846C0075EB4C /* FLPFriendTrendsViewController.m in Sources */,

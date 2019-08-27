@@ -44,6 +44,8 @@
 #define iphone4 (FLPScreenH == 480)
 /***********屏幕适配*************/
 
+#define FLPColor(r,g,b) [UIColor colorWithRed:(r) / 256.0 green:(g) / 256.0 blue:(b) / 256.0 alpha:1]
+
 #define FLPFunc FLPLog(@"%s",__func__)
 
 #ifdef DEBUG // 调试
