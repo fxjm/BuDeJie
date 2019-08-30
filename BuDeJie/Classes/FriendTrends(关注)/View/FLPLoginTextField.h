@@ -1,8 +1,8 @@
 //
-//  FLPSettingViewController.h
+//  FLPLoginTextField.h
 //  BuDeJie
 //
-//  Created by lipeng feng on 2019/8/30.
+//  Created by lipeng feng on 2019/8/29.
 //  Copyright © 2019 lipeng feng. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FLPSettingViewController : UITableViewController
+@interface FLPLoginTextField : UITextField
 
 @end
 

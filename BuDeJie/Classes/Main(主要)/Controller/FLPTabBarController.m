@@ -44,7 +44,7 @@
     //设置所有的子控制器
     [self setUpAllChildVc];
     
-    //设置所有自控制器的标题和图片
+    //设置所有子控制器的标题和图片
     [self setUpAllTitle];
     
     //设置tabbar
@@ -70,7 +70,9 @@
     [self addChildViewController:friendTrendsNav];
     
     //我
-    FLPMeViewController *meVc = [[FLPMeViewController alloc] init];
+    UIStoryboard *meStoryboard = [UIStoryboard storyboardWithName:@"FLPMeViewController" bundle:nil] ;
+//    FLPMeViewController *meVc = [[FLPMeViewController alloc] init];
+    FLPMeViewController *meVc = [meStoryboard instantiateInitialViewController];
     FLPNavigationController *meNav = [[FLPNavigationController alloc] initWithRootViewController:meVc];
     [self addChildViewController:meNav];
 }
@@ -108,8 +110,6 @@
     
     FLPTabBar *tabBar = [[FLPTabBar alloc] init];
     [self setValue:tabBar forKey:@"tabBar"];
-    
-    
 }
 
 - (void)viewWillAppear:(BOOL)animated{

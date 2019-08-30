@@ -1,5 +1,5 @@
 //
-//  FLPSettingViewController.h
+//  FLPWebViewController.h
 //  BuDeJie
 //
 //  Created by lipeng feng on 2019/8/30.
@@ -10,8 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FLPSettingViewController : UITableViewController
-
+@interface FLPWebViewController : UIViewController
+/** url */
+@property (nonatomic, strong) NSString *url;
 @end
 
 NS_ASSUME_NONNULL_END

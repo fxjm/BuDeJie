@@ -40,7 +40,7 @@
     [backBtn setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
     [backBtn sizeToFit];
     [backBtn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
-    backBtn.contentEdgeInsets = UIEdgeInsetsMake(0, -20, 0, 0);
+//    backBtn.contentEdgeInsets = UIEdgeInsetsMake(0, -20, 0, 0);
     
     UIView *contaicView = [[UIView alloc] initWithFrame:backBtn.bounds];
     [contaicView addSubview:backBtn];
