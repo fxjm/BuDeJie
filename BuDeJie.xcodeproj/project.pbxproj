@@ -37,6 +37,7 @@
 		448DA61A23180F7C00FDE767 /* FLPSquareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 448DA61823180F7C00FDE767 /* FLPSquareCell.m */; };
 		448DA61B23180F7C00FDE767 /* FLPSquareCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 448DA61923180F7C00FDE767 /* FLPSquareCell.xib */; };
 		448DA61E231813CA00FDE767 /* FLPSquareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 448DA61D231813CA00FDE767 /* FLPSquareItem.m */; };
+		44A3417F231D5A4E0063E7E7 /* FLPTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A3417E231D5A4E0063E7E7 /* FLPTitleButton.m */; };
 		44B7251723151FA600DC02D4 /* FLPThirdBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7251623151FA600DC02D4 /* FLPThirdBtn.m */; };
 		44B7251A2315216B00DC02D4 /* FLPLoginRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B725192315216B00DC02D4 /* FLPLoginRegisterView.m */; };
 		44B7251C2315217700DC02D4 /* FLPLoginRegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44B7251B2315217700DC02D4 /* FLPLoginRegisterView.xib */; };
@@ -112,6 +113,8 @@
 		448DA61923180F7C00FDE767 /* FLPSquareCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FLPSquareCell.xib; sourceTree = "<group>"; };
 		448DA61C231813CA00FDE767 /* FLPSquareItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPSquareItem.h; sourceTree = "<group>"; };
 		448DA61D231813CA00FDE767 /* FLPSquareItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPSquareItem.m; sourceTree = "<group>"; };
+		44A3417D231D5A4E0063E7E7 /* FLPTitleButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPTitleButton.h; sourceTree = "<group>"; };
+		44A3417E231D5A4E0063E7E7 /* FLPTitleButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPTitleButton.m; sourceTree = "<group>"; };
 		44B7251523151FA600DC02D4 /* FLPThirdBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPThirdBtn.h; sourceTree = "<group>"; };
 		44B7251623151FA600DC02D4 /* FLPThirdBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPThirdBtn.m; sourceTree = "<group>"; };
 		44B725182315216B00DC02D4 /* FLPLoginRegisterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPLoginRegisterView.h; sourceTree = "<group>"; };
@@ -344,6 +347,8 @@
 		44B7DE92230E7A350075EB4C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				44A3417D231D5A4E0063E7E7 /* FLPTitleButton.h */,
+				44A3417E231D5A4E0063E7E7 /* FLPTitleButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -738,6 +743,7 @@
 			files = (
 				44B7DEB2230E84540075EB4C /* FLPNewViewController.m in Sources */,
 				444E693A230FC98E00EE32E4 /* UIBarButtonItem+Item.m in Sources */,
+				44A3417F231D5A4E0063E7E7 /* FLPTitleButton.m in Sources */,
 				448DA60E231805EE00FDE767 /* FLPLoginTextField.m in Sources */,
 				44B7DEA8230E7A350075EB4C /* AppDelegate.m in Sources */,
 				44CC95DD2314E221009B656D /* FLPTagSubTableViewController.m in Sources */,
