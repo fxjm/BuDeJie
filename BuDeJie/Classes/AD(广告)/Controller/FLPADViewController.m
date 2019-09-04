@@ -82,6 +82,8 @@
 }
 //设置启动图片并且屏幕适配
 -(void)setLaunchImage{
+ 
+    
     // 6p:LaunchImage-800-Portrait-736h@3x.png
     // 6:LaunchImage-800-667h@2x.png
     // 5:LaunchImage-568h@2x.png

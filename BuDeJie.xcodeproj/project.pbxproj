@@ -53,6 +53,7 @@
 		44B7DEBE230E873A0075EB4C /* FLPMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DEBD230E873A0075EB4C /* FLPMeViewController.m */; };
 		44B7DEC5230E9AD70075EB4C /* FLPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DEC4230E9AD70075EB4C /* FLPTabBarController.m */; };
 		44B7DEC9230EA1860075EB4C /* UIImage+FLPImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B7DEC8230EA1860075EB4C /* UIImage+FLPImage.m */; };
+		44CC393F231FA57C00E2B20A /* FLPConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC393E231FA57C00E2B20A /* FLPConst.m */; };
 		44CC95DD2314E221009B656D /* FLPTagSubTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC95DC2314E221009B656D /* FLPTagSubTableViewController.m */; };
 		44CC95E02314F268009B656D /* FLPSubTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC95DF2314F268009B656D /* FLPSubTag.m */; };
 		44CC95E42314F306009B656D /* FLPSubTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC95E22314F306009B656D /* FLPSubTagCell.m */; };
@@ -60,6 +61,11 @@
 		44CC95E72315031C009B656D /* FLPFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44CC95E62315031C009B656D /* FLPFriendTrendsViewController.xib */; };
 		44CC95EA2315124B009B656D /* FLPFastLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC95E92315124B009B656D /* FLPFastLoginView.m */; };
 		44CC95EC23151254009B656D /* FLPFastLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44CC95EB23151254009B656D /* FLPFastLoginView.xib */; };
+		44CD4116231E84C400BB06F5 /* FLPAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CD4115231E84C400BB06F5 /* FLPAllViewController.m */; };
+		44CD4119231E84D900BB06F5 /* FLPPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CD4118231E84D900BB06F5 /* FLPPictureViewController.m */; };
+		44CD411C231E84F000BB06F5 /* FLPVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CD411B231E84F000BB06F5 /* FLPVideoViewController.m */; };
+		44CD411F231E850200BB06F5 /* FLPVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CD411E231E850200BB06F5 /* FLPVoiceViewController.m */; };
+		44CD4122231E851500BB06F5 /* FLPWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CD4121231E851500BB06F5 /* FLPWordViewController.m */; };
 		61FCCAA6D28FA674D14C9726 /* libPods-BuDeJie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F91EBF08A65CE6F4E92DFF8B /* libPods-BuDeJie.a */; };
 /* End PBXBuildFile section */
 
@@ -142,6 +148,8 @@
 		44B7DEC4230E9AD70075EB4C /* FLPTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPTabBarController.m; sourceTree = "<group>"; };
 		44B7DEC7230EA1860075EB4C /* UIImage+FLPImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+FLPImage.h"; sourceTree = "<group>"; };
 		44B7DEC8230EA1860075EB4C /* UIImage+FLPImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FLPImage.m"; sourceTree = "<group>"; };
+		44CC393D231FA57C00E2B20A /* FLPConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPConst.h; sourceTree = "<group>"; };
+		44CC393E231FA57C00E2B20A /* FLPConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPConst.m; sourceTree = "<group>"; };
 		44CC95DB2314E221009B656D /* FLPTagSubTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPTagSubTableViewController.h; sourceTree = "<group>"; };
 		44CC95DC2314E221009B656D /* FLPTagSubTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPTagSubTableViewController.m; sourceTree = "<group>"; };
 		44CC95DE2314F268009B656D /* FLPSubTag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPSubTag.h; sourceTree = "<group>"; };
@@ -153,6 +161,16 @@
 		44CC95E82315124B009B656D /* FLPFastLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPFastLoginView.h; sourceTree = "<group>"; };
 		44CC95E92315124B009B656D /* FLPFastLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPFastLoginView.m; sourceTree = "<group>"; };
 		44CC95EB23151254009B656D /* FLPFastLoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FLPFastLoginView.xib; sourceTree = "<group>"; };
+		44CD4114231E84C400BB06F5 /* FLPAllViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPAllViewController.h; sourceTree = "<group>"; };
+		44CD4115231E84C400BB06F5 /* FLPAllViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPAllViewController.m; sourceTree = "<group>"; };
+		44CD4117231E84D900BB06F5 /* FLPPictureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPPictureViewController.h; sourceTree = "<group>"; };
+		44CD4118231E84D900BB06F5 /* FLPPictureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPPictureViewController.m; sourceTree = "<group>"; };
+		44CD411A231E84F000BB06F5 /* FLPVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPVideoViewController.h; sourceTree = "<group>"; };
+		44CD411B231E84F000BB06F5 /* FLPVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPVideoViewController.m; sourceTree = "<group>"; };
+		44CD411D231E850200BB06F5 /* FLPVoiceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPVoiceViewController.h; sourceTree = "<group>"; };
+		44CD411E231E850200BB06F5 /* FLPVoiceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPVoiceViewController.m; sourceTree = "<group>"; };
+		44CD4120231E851500BB06F5 /* FLPWordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLPWordViewController.h; sourceTree = "<group>"; };
+		44CD4121231E851500BB06F5 /* FLPWordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLPWordViewController.m; sourceTree = "<group>"; };
 		C37A1C82E42293138ABEEF5A /* Pods-BuDeJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuDeJie.debug.xcconfig"; path = "Target Support Files/Pods-BuDeJie/Pods-BuDeJie.debug.xcconfig"; sourceTree = "<group>"; };
 		F91EBF08A65CE6F4E92DFF8B /* libPods-BuDeJie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuDeJie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -333,6 +351,16 @@
 			children = (
 				44B7DEA9230E84180075EB4C /* FLPEssenceViewController.h */,
 				44B7DEAA230E84180075EB4C /* FLPEssenceViewController.m */,
+				44CD4114231E84C400BB06F5 /* FLPAllViewController.h */,
+				44CD4115231E84C400BB06F5 /* FLPAllViewController.m */,
+				44CD4117231E84D900BB06F5 /* FLPPictureViewController.h */,
+				44CD4118231E84D900BB06F5 /* FLPPictureViewController.m */,
+				44CD411A231E84F000BB06F5 /* FLPVideoViewController.h */,
+				44CD411B231E84F000BB06F5 /* FLPVideoViewController.m */,
+				44CD411D231E850200BB06F5 /* FLPVoiceViewController.h */,
+				44CD411E231E850200BB06F5 /* FLPVoiceViewController.m */,
+				44CD4120231E851500BB06F5 /* FLPWordViewController.h */,
+				44CD4121231E851500BB06F5 /* FLPWordViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -361,6 +389,8 @@
 				44B7DE9A230E7A350075EB4C /* AppDelegate.m */,
 				44B7DE99230E7A350075EB4C /* main.m */,
 				444E6937230FBDF000EE32E4 /* BuDeJie.pch */,
+				44CC393D231FA57C00E2B20A /* FLPConst.h */,
+				44CC393E231FA57C00E2B20A /* FLPConst.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -748,12 +778,15 @@
 				44B7DEA8230E7A350075EB4C /* AppDelegate.m in Sources */,
 				44CC95DD2314E221009B656D /* FLPTagSubTableViewController.m in Sources */,
 				4424DDF22312BA160084C80A /* UIImage+Antialias.m in Sources */,
+				44CD411C231E84F000BB06F5 /* FLPVideoViewController.m in Sources */,
 				44B7251A2315216B00DC02D4 /* FLPLoginRegisterView.m in Sources */,
 				448DA61E231813CA00FDE767 /* FLPSquareItem.m in Sources */,
+				44CD4116231E84C400BB06F5 /* FLPAllViewController.m in Sources */,
 				448DA61A23180F7C00FDE767 /* FLPSquareCell.m in Sources */,
 				44B7DEC5230E9AD70075EB4C /* FLPTabBarController.m in Sources */,
 				44CC95E42314F306009B656D /* FLPSubTagCell.m in Sources */,
 				44177DE423138B3700C4A6C8 /* FLPLoginRegisterViewController.m in Sources */,
+				44CD4122231E851500BB06F5 /* FLPWordViewController.m in Sources */,
 				44027B942318B3EE004E09DD /* FLPWebViewController.m in Sources */,
 				44B7251723151FA600DC02D4 /* FLPThirdBtn.m in Sources */,
 				44CC95EA2315124B009B656D /* FLPFastLoginView.m in Sources */,
@@ -762,14 +795,17 @@
 				44B7DEAB230E84180075EB4C /* FLPEssenceViewController.m in Sources */,
 				44027B9F2318CF45004E09DD /* XMGFileTool.m in Sources */,
 				44B7DEB5230E84620075EB4C /* FLPPublicViewController.m in Sources */,
+				44CD4119231E84D900BB06F5 /* FLPPictureViewController.m in Sources */,
 				444E6941230FE8D700EE32E4 /* FLPNavigationController.m in Sources */,
 				44B7DEC9230EA1860075EB4C /* UIImage+FLPImage.m in Sources */,
 				44B7DEA7230E7A350075EB4C /* main.m in Sources */,
 				4424DDF32312BA160084C80A /* UIColor+Hex.m in Sources */,
 				44CC95E02314F268009B656D /* FLPSubTag.m in Sources */,
+				44CD411F231E850200BB06F5 /* FLPVoiceViewController.m in Sources */,
 				444E6933230F94CD00EE32E4 /* FLPTabBar.m in Sources */,
 				44177DE82313CB0000C4A6C8 /* FLPAdItem.m in Sources */,
 				44B7DEB8230E846C0075EB4C /* FLPFriendTrendsViewController.m in Sources */,
+				44CC393F231FA57C00E2B20A /* FLPConst.m in Sources */,
 				448DA6112318082D00FDE767 /* UITextField+PlaceHolder.m in Sources */,
 				4424DDF12312BA160084C80A /* NSObject+Log.m in Sources */,
 				444E6936230FBBCE00EE32E4 /* UIView+Frame.m in Sources */,
